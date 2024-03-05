@@ -26,7 +26,9 @@ The `-f` flag will make the app launch in fullscreen.
 
 A portable launch script can be made and put in $PATH using this template:
 `#!/usr/bin/env bash
+
 cd <PATH TO CLONED REPO> || exit 1
+
 python3 main.py [-f]`
 
 ## Obtaining and using artist background images
