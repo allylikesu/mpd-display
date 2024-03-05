@@ -46,8 +46,22 @@ python3 main.py [-f]
 ```
 
 ## Obtaining and using artist background images
-For Spotify's fullscreen mode, it uses a slightly darkened version of the main artist's profile banner as a background. 
+For Spotify's fullscreen mode, it uses a slightly darkened version of the main artist's profile banner as a background.
+If the artist does not have a profile banner, a gradient based on the song's album art is used.
+
 This behaviour is replicated by this program, but the images need to be manually obtained.
 If you don't care about Spotify and have your own images you want to use, that is totally cool!
 The format of the file should be `<artist name>.jpg`.
 The file name should be in **ALL LOWERCASE!**
+
+Obtaining profile banners from Spotify is simple but a little annoying. 
+1. navigate to the artist's profile on the Spotify web client. Using Firefox might not work, I had to do this in Chromium.
+2. Press `Ctrl+Shift+I` to enter the developer console and inspect the element of the page.
+3. Press `Ctrl+F` to open the search prompt. Search for `"background-image:`. The first result should look like this.
+![image](img/background.png)
+4. Copy the i.scdn.co link. This is the link to the image. Make sure to *NOT* copy the `&quot;` before and after the link.
+![image](img/background2.png)
+5. Open this link in your browser. Right click and save it to the `artists/` folder as `<lowercase artist name>.jpg`
+
+
+
