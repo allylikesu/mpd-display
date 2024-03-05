@@ -63,5 +63,8 @@ Obtaining profile banners from Spotify is simple but a little annoying.
 ![image](img/background2.png)
 5. Open this link in your browser. Right click and save it to the `artists/` folder as `<lowercase artist name>.jpg`
 
+### Artist name parsing
+In order to display the correct image, this program parses the first artist in the song's artist metadata. There are multiple ways used to separate artist names in this metadata, and improperly parsing this data can cause the program to search for the wrong image file. Current delimeters used are `, `, `/`, and ` & `. If you encounter issues due to your files using a different format, please open an issue.
+
 
 
