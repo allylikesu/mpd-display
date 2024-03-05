@@ -25,11 +25,13 @@ I provide no packaging solutions. Clone the repo and run main.py.
 The `-f` flag will make the app launch in fullscreen.
 
 A portable launch script can be made and put in $PATH using this template:
-`#!/usr/bin/env bash
+```
+#!/usr/bin/env bash
 
 cd <PATH TO CLONED REPO> || exit 1
 
-python3 main.py [-f]`
+python3 main.py [-f]
+```
 
 ## Obtaining and using artist background images
 For Spotify's fullscreen mode, it uses a slightly darkened version of the main artist's profile banner as a background. 
