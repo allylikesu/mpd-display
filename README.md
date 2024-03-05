@@ -67,4 +67,4 @@ Obtaining profile banners from Spotify is simple but a little annoying.
 In order to display the correct image, this program parses the first artist in the song's artist metadata. There are multiple formats used to separate artist names in this metadata, and improperly parsing this data can cause the program to search for the wrong image file. Current delimeters used are `,_`, `/`, `_&_`, and `;_` (underscores representing spaces). If you encounter issues due to your files using a different format, please open an issue.
 
 ## Contributions
-If you encounter an issue, open an issue. If you want to contribute... good luck. most of this code was written very early in the morning running on very little sleep.
+If you encounter an issue, open an issue. If you want to contribute... good luck. most of this code was written very early in the morning running on very little sleep :thumbsup:.
