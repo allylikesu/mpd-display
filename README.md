@@ -9,7 +9,7 @@ Requires MPC.
 ## Features
 - Toggleable fullscreen with the `f` or `F11` key
 - Fully resizable window, all screen elements will be properly scaled/positioned
-- Artist-specific background art (See more below)
+- Artist-specific background art (See more [here](https://github.com/allylikesu/mpd-display#obtaining-and-using-artist-background-images))
 - Design basically fully ripped off of the Spotify desktop client's fullscreen mode
 - Extremely poorly optimized
 - Click or press space to play/pause
