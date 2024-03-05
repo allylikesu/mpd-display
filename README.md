@@ -17,7 +17,19 @@ Requires MPC.
 - Easy to quit with `Esc` or `q`
 
 ## Screenshots
-It is 2am. I will add screenshots later.
+![image](img/1.png)
+
+![image](img/2.png)
+
+![image](img/3.png)
+
+![image](img/4.png)
+
+![image](img/5.png)
+
+![image](img/6.png)
+
+![image](img/7.png)
 
 ## Installation/Usage
 I provide no packaging solutions. Clone the repo and run main.py.
