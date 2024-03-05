@@ -290,7 +290,7 @@ while running:
     # render screen
     get_artist = subprocess.run(["mpc", "-f", "%artist%", "current"], stdout=subprocess.PIPE, text=True)
     artist_name = get_artist.stdout[:-1]
-    main_artist = artist_name.split(", ")[0].split("/")[0].split(" & ")[0].lower()
+    main_artist = artist_name.split(", ")[0].split("/")[0].split(" & ")[0].split("; ")[0].lower()
     get_title = subprocess.run(["mpc", "-f", "%title%", "current"], stdout=subprocess.PIPE, text=True)
     track_title = get_title.stdout[:-1]
     if track_title != LAST_TRACK_TITLE:
