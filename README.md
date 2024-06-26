@@ -1,3 +1,4 @@
+# ⚠️ This project has been discontinued. See the new verstion at [mpd-display-rs](https://github.com/allylikesu/mpd-display-rs) ⚠️
 # Spotify-like graphical display for MPD
 
 Note that this is not a full MPD client, as it only *displays* data.
